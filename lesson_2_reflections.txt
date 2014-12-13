@@ -1,0 +1,4 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+
+Your current directory becomes a repository. Now we can make new commits and run
+git commands on that repository.
