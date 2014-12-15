@@ -1,43 +1,8 @@
 --------------------------------------------------------------------------------
 VOCABULARY:
 
-repository
-	- collection of files that are tracked by git as a cohesive unit
-
-git commit
-	- save the current contents of the staging area as a new commit
-
-git diff
-	- compare the contents of the working directory to the contents of the
-	  staging area
-
-git diff <commit-1> <commit-2>
-	- takes 2 commit ids as input and outputs the difference between them
-
-git clone
-	- takes an existing repository and makes a new one just like it
-
-git log
-	- shows the commits in the repository prior to the current commit
-
-git log --graph --oneline
-	- shows a visualization of the branches
-
-git checkout <commit-id>
-	- resetting all of your files to how they were at the time that commit was
-	  made
-
-git checkout <branch-name>
-	- takes you to a branch
-
-git init
-	- create a new Git repository in the current directory
-
 git add <file-name>
 	- add all changes to the given file to the staging area
-
-git status
-	- displays the status of your repository (including the staging area)
 
 git branch
 	- view a list of currently existing branches
@@ -50,6 +15,39 @@ git branch -d <branch-name>
 	- won't delete the commits in a branch UNLESS you haven't merged it to any
 	  other branch
 
+git checkout <branch-name>
+	- takes you to a branch
+
+git checkout <commit-id>
+	- resetting all of your files to how they were at the time that commit was
+	  made
+
+git clone
+	- takes an existing repository and makes a new one just like it
+
+git commit
+	- save the current contents of the staging area as a new commit
+
+git diff
+	- compare the contents of the working directory to the contents of the
+	  staging area
+
+git diff <commit-1> <commit-2>
+	- takes 2 commit ids as input and outputs the difference between them
+
+git init
+	- create a new Git repository in the current directory
+
+git log
+	- shows the commits in the repository prior to the current commit
+
+git log --graph --oneline
+	- shows a visualization of the branches
+
+git merge <branch-1> <branch-2>
+	- create a combined version of two branches that contains all the content
+	  from both
+
 git show <commit-id>
 	- show you what changes were introduced by a commit compared to its parent
 	- can see the diff between the commit and its parent without knowing exactly
@@ -59,9 +57,8 @@ git status
 	- print information about the current repository, including whether any
 	  changes have been made since the last commit
 
-git merge <branch-1> <branch-2>
-	- create a combined version of two branches that contains all the content
-	  from both
+repository
+	- collection of files that are tracked by git as a cohesive unit
 
 staging area
 	- the files that you want to commit
