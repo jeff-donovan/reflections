@@ -1,8 +1,11 @@
+--------------------------------------------------------------------------------
+
 1) What happens when you initialize a repository? Why do you need to do it?
 
 Your current directory becomes a repository. Now we can make new commits and run
 git commands on that repository.
 
+--------------------------------------------------------------------------------
 
 2) How is the staging area different from the working directory and the
 repository? What value do you think it offers?
@@ -10,6 +13,7 @@ repository? What value do you think it offers?
 The staging area is a subset of the working directory and the repository. It
 allows you to group (or circle) the files you want to commit.
 
+--------------------------------------------------------------------------------
 
 3) How can you use the staging area to make sure you have one commit per logical
 change?
@@ -20,6 +24,7 @@ input parameters) to see the difference between the staging area and the working
 directory. You can also use 'git diff --staged' to check the difference between
 the staging area and the most recent commit.
 
+--------------------------------------------------------------------------------
 
 4) What are some situations when branches would be helpful in keeping your
 history organized? How would branches help?
@@ -28,6 +33,7 @@ Let's say you want to add new functionality to your code. If you can think of
 multiple ways to add that functionality it makes sense to try each approach to
 see which one is best. You can also A/B test features in a similar way.
 
+--------------------------------------------------------------------------------
 
 5) How do the diagrams help you visualize the branch structure?
 
@@ -35,9 +41,21 @@ They show you which commit is a parent of each commit. They also show the point
 at which a new branch split off. Finally, they can show you an unreachable
 commit.
 
+--------------------------------------------------------------------------------
 
 6) What is the result of merging two branches together? Why do we represent it
 in the diagram the way we do?
 
 We update one branch by adding all of the changed code from the other. We also
 add in all of the commits from the other branch.
+
+--------------------------------------------------------------------------------
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+By doing the merging automatically we reduce human error. At the same time, what
+if you didn't want all of your code merged over? You would accidentally do this
+through 'git merge', but you might not if you go line-by-line manually.
+
+--------------------------------------------------------------------------------
