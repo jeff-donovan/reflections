@@ -34,3 +34,10 @@ see which one is best. You can also A/B test features in a similar way.
 They show you which commit is a parent of each commit. They also show the point
 at which a new branch split off. Finally, they can show you an unreachable
 commit.
+
+
+6) What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+We update one branch by adding all of the changed code from the other. We also
+add in all of the commits from the other branch.
