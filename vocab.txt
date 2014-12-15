@@ -17,6 +17,9 @@ git checkout
 	- resetting all of your files to how they were at the time that commit was
 	made
 
+git checkout (branch-name)
+	- takes you to a branch
+
 git init
 	- creates a repository
 
@@ -25,6 +28,12 @@ git add
 
 git status
 	- displays the status of your repository (including the staging area)
+
+git branch (no arguments)
+	- shows you your current branches
+
+git branch (branch-name)
+	- creates a new branch with that name (branch-name)
 
 staging area
 	- the files that you want to commit
