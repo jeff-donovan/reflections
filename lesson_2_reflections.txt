@@ -27,3 +27,10 @@ history organized? How would branches help?
 Let's say you want to add new functionality to your code. If you can think of
 multiple ways to add that functionality it makes sense to try each approach to
 see which one is best. You can also A/B test features in a similar way.
+
+
+5) How do the diagrams help you visualize the branch structure?
+
+They show you which commit is a parent of each commit. They also show the point
+at which a new branch split off. Finally, they can show you an unreachable
+commit.
