@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-VOCABULARY:
+COMMANDS:
 
 git add <file-name>
 	- add all changes to the given file to the staging area
@@ -56,6 +56,9 @@ git show <commit-id>
 git status
 	- print information about the current repository, including whether any
 	  changes have been made since the last commit
+
+--------------------------------------------------------------------------------
+VOCABULARY:
 
 repository
 	- collection of files that are tracked by git as a cohesive unit
