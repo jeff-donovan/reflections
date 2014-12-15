@@ -4,7 +4,14 @@ VOCABULARY:
 repository
 	- collection of files that are tracked by git as a cohesive unit
 
+git commit
+	- save the current contents of the staging area as a new commit
+
 git diff
+	- compare the contents of the working directory to the contents of the
+	  staging area
+
+git diff <commit-1> <commit-2>
 	- takes 2 commit ids as input and outputs the difference between them
 
 git clone
@@ -18,25 +25,25 @@ git log --graph --oneline
 
 git checkout <commit-id>
 	- resetting all of your files to how they were at the time that commit was
-	made
+	  made
 
 git checkout <branch-name>
 	- takes you to a branch
 
 git init
-	- creates a repository
+	- create a new Git repository in the current directory
 
-git add
-	- adds a file (or files) to the staging area
+git add <file-name>
+	- add all changes to the given file to the staging area
 
 git status
 	- displays the status of your repository (including the staging area)
 
-git branch (no arguments)
-	- shows you your current branches
+git branch
+	- view a list of currently existing branches
 
 git branch <branch-name>
-	- creates a new branch with that name (branch-name)
+	- create a new branch label referring to the current commit
 
 git branch -d <branch-name>
 	- deletes a branch's label
@@ -48,7 +55,13 @@ git show <commit-id>
 	- can see the diff between the commit and its parent without knowing exactly
 	  what the parent was
 
-git merge
+git status
+	- print information about the current repository, including whether any
+	  changes have been made since the last commit
+
+git merge <branch-1> <branch-2>
+	- create a combined version of two branches that contains all the content
+	  from both
 
 staging area
 	- the files that you want to commit
