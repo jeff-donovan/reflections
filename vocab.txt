@@ -13,11 +13,14 @@ git clone
 git log
 	- shows the commits in the repository prior to the current commit
 
-git checkout
+git log --graph --oneline
+	- shows a visualization of the branches
+
+git checkout <commit-id>
 	- resetting all of your files to how they were at the time that commit was
 	made
 
-git checkout (branch-name)
+git checkout <branch-name>
 	- takes you to a branch
 
 git init
@@ -32,8 +35,20 @@ git status
 git branch (no arguments)
 	- shows you your current branches
 
-git branch (branch-name)
+git branch <branch-name>
 	- creates a new branch with that name (branch-name)
+
+git branch -d <branch-name>
+	- deletes a branch's label
+	- won't delete the commits in a branch UNLESS you haven't merged it to any
+	  other branch
+
+git show <commit-id>
+	- show you what changes were introduced by a commit compared to its parent
+	- can see the diff between the commit and its parent without knowing exactly
+	  what the parent was
+
+git merge
 
 staging area
 	- the files that you want to commit
