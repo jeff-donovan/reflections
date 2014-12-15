@@ -9,3 +9,13 @@ repository? What value do you think it offers?
 
 The staging area is a subset of the working directory and the repository. It
 allows you to group (or circle) the files you want to commit.
+
+
+3) How can you use the staging area to make sure you have one commit per logical
+change?
+
+You can first use 'git status' to check the status of your staging area. It will
+show how many files are in the staging area. Then you can use 'git diff' (no
+input parameters) to see the difference between the staging area and the working
+directory. You can also use 'git diff --staged' to check the difference between
+the staging area and the most recent commit.
