@@ -2,3 +2,10 @@
 
 Your current directory becomes a repository. Now we can make new commits and run
 git commands on that repository.
+
+
+2) How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+The staging area is a subset of the working directory and the repository. It
+allows you to group (or circle) the files you want to commit.

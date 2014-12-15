@@ -17,6 +17,22 @@ git checkout
 	- resetting all of your files to how they were at the time that commit was
 	made
 
+git init
+	- creates a repository
+
+git add
+	- adds a file (or files) to the staging area
+
+git status
+	- displays the status of your repository (including the staging area)
+
+staging area
+	- the files that you want to commit
+	- you can add files to the staging area using 'git add'
+
+working directory
+	- the directory you are located in
+
 --------------------------------------------------
 ERRORS AND WARNINGS:
 
