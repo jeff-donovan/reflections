@@ -52,3 +52,12 @@ would definitely be difficult.
 
 --------------------------------------------------------------------------------
 
+6) When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+If you are testing a new feature or maybe trying multiple approaches to the same
+problem it makes sense to have separate branches. The master should be your
+final product after you determine how to implement a feature or solve a problem.
+
+--------------------------------------------------------------------------------
+
