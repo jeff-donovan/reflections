@@ -13,3 +13,21 @@ automatically stay up-to-date with your remote repository?
 
 - in case there are updated files on Github that you have updated differently,
   you need to be able to handle those conflicts properly
+
+--------------------------------------------------------------------------------
+
+3) Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+- branches are specific to a repo
+- clones are clones of a repo either locally or remotely
+- forks are clones of a repo that give credit to the original person
+
+- use branches to help organize prototypes and stages of projects
+    - ex: a development, experimental and master branch for a project
+- clone an existing repo to your local machine so that you can work on it
+- fork an existing repo that's not your own so that you can give the original
+  owner credit
+
+--------------------------------------------------------------------------------
+
