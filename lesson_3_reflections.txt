@@ -5,3 +5,11 @@ work local?
 
 - multiple people are working on the same repository
 - you work on the same repository on your work and home computers
+
+--------------------------------------------------------------------------------
+
+2) Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+- in case there are updated files on Github that you have updated differently,
+  you need to be able to handle those conflicts properly
