@@ -39,3 +39,16 @@ compares to the state of the remote.
 
 --------------------------------------------------------------------------------
 
+5) How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+We could use a similar system where you have a central location for the "Master
+Branch". Then we could use email to notify the other team members when we wanted
+to update the Master Branch. They could give us feedback and we could update it
+once everyone agreed on the changes. I can't think of what would be easier, but
+it would definitely be harder to stay organized. Email is already cluttered and
+what happens we don't remember the changes we made previously? Version control
+would definitely be difficult.
+
+--------------------------------------------------------------------------------
+
