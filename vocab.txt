@@ -48,6 +48,9 @@ git merge <branch-1> <branch-2>
 	- create a combined version of two branches that contains all the content
 	  from both
 
+git push <remote-name> <local-branch>
+	- 
+
 git show <commit-id>
 	- show you what changes were introduced by a commit compared to its parent
 	- can see the diff between the commit and its parent without knowing exactly
