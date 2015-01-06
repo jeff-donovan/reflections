@@ -31,3 +31,11 @@ use one instead of another?
 
 --------------------------------------------------------------------------------
 
+4) What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+So that when you are working offline you can immediately check how your branch
+compares to the state of the remote.
+
+--------------------------------------------------------------------------------
+
